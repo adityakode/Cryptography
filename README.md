@@ -49,3 +49,16 @@ RSA and ECDSA Algorithms
 - `secp256k1` is used in Bitcoins public-key crpytography. `secp256k1` was constructed in a special non-random way which allows for especially efficient computation. As a result, it is often more than 30% faster than other curves if the implementation is sufficiently optimized.
 
 - _Diffie-Hellman Key Exchange_ is used to get that Secret Key
+
+# Proof of Work and Mining
+
+Consensus Mechanisms :
+
+- Consensus means coming to general agreement.
+- Blockchain consensus typically means at least 51% of nodes are in agreement over the current global state of the network.
+
+Proof-of-work and Minning :
+
+- POF networks will typically have some sort of target_difficulty
+- If a Miner wants to add a new block then must find a POF lower than the network target difficulty.
+- If Miner follows all consensus rules then his block gets valid and miner gets paid for mining a valid transaction.
