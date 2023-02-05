@@ -81,3 +81,10 @@ Blockchain Architecture
 - Collection of distributed nodes arranged as a peer-to-peer network without any supernode is a structure of blockchain and due to Consensus mechanism Bitcoin network decides validity of new data based on who is able to produce a valid POW.
 
 - Mallory : Crypto term of malicious actor!
+
+# Blockchain Storage
+
+## UTXO and Accound Models
+
+- UTXO stands for "Unspent Transaction Output". Bitcoin uses the UTXO model to keep track of user balances.
+- Ethereum and EVM chains use the account model to keep track of user balances.
