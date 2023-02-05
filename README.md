@@ -59,6 +59,16 @@ Consensus Mechanisms :
 
 Proof-of-work and Minning :
 
-- POF networks will typically have some sort of target_difficulty
-- If a Miner wants to add a new block then must find a POF lower than the network target difficulty.
+- POW networks will typically have some sort of target_difficulty
+- If a Miner wants to add a new block then must find a POW lower than the network target difficulty.
 - If Miner follows all consensus rules then his block gets valid and miner gets paid for mining a valid transaction.
+
+How does Bitcoin use Proof of Work?
+
+- POW act as a security of the Bitcoin system. Thousands of nodes are working to find hashes of data. And if you want to hash data more than other miners then you should come up with more computing power than all the nodes in the entire system.
+- This is referred to as a 51% attack because you need 51% of the total hashing power in the network.
+
+Hashcash Concept :
+
+- Hashcash is a POW system used to limit E-mail spam and denial of sevice attacks.
+- Hashcash is a cryptographic hash based POW algorithm that requires a selectable amount of work to compute, but the proof can be verified efficiently.
