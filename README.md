@@ -70,5 +70,14 @@ How does Bitcoin use Proof of Work?
 
 Hashcash Concept :
 
-- Hashcash is a POW system used to limit E-mail spam and denial of sevice attacks.
+- Hashcash is a POW system used to limit E-mail spam and denial of service attacks.
 - Hashcash is a cryptographic hash based POW algorithm that requires a selectable amount of work to compute, but the proof can be verified efficiently.
+
+# Blockchain Structure
+
+Blockchain Architecture
+
+- A blockchain is a distributed database of a list of validated blocks.
+- Collection of distributed nodes arranged as a peer-to-peer network without any supernode is a structure of blockchain and due to Consensus mechanism Bitcoin network decides validity of new data based on who is able to produce a valid POW.
+
+- Mallory : Crypto term of malicious actor!
