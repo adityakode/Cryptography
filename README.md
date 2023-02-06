@@ -88,3 +88,41 @@ Blockchain Architecture
 
 - UTXO stands for "Unspent Transaction Output". Bitcoin uses the UTXO model to keep track of user balances.
 - Ethereum and EVM chains use the account model to keep track of user balances.
+
+For Merkle Tree Data Structure in Blockchain : [Click Here](https://www.linkedin.com/posts/aadit-palande-839a8b22a_blockchain-cryptocurrency-bitcoin-activity-7016400048452169728-1Dne?utm_source=share&utm_medium=member_desktop)
+
+Merkle Proofs :
+
+- A merkle proof confirms specific transactions represented by a leaf or branch hash within a Merkle hash root
+
+# Patricia Merkle Tries
+
+Important Ethereum Block Properties :
+
+- State Root
+- Transaction Root
+- Receipt Root
+
+Trees in Ethereum :
+
+- Ethereum makes use a data structure called a radix trie also referred to as a Patricia trie or radix tree and combines this data structure to form Patricia Merkle Tree.
+
+- Patricia Merkle Trees is a data structure that stores key-value pairs, just like hash table. It allows us to verify data integrity and the inclusion of a key-value pair.
+
+# Introduction to Ethereum
+
+What is Ethereum?
+
+- It is an open source, globally decentralized computing infrastructure that executes programs called smart contracts.
+
+Properties of the Ethereum Computer :
+
+- Ethereum = Truly Global Singleton : Not located at one location
+
+- Censorship Resistance : No one can govern Ethereum Computer
+
+- Ethereum = Ubiquitous and Accessible
+
+- Natively Multi-User
+
+- It is Verifiable and Auditable
