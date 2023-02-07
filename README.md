@@ -117,12 +117,27 @@ What is Ethereum?
 
 Properties of the Ethereum Computer :
 
-- Ethereum = Truly Global Singleton : Not located at one location
+- Ethereum -> Truly Global Singleton : Not located at one location
 
-- Censorship Resistance : No one can govern Ethereum Computer
+- Censorship Resistance -> No one can govern Ethereum Computer
 
-- Ethereum = Ubiquitous and Accessible
+- Ethereum -> Ubiquitous and Accessible
 
 - Natively Multi-User
 
 - It is Verifiable and Auditable
+
+**Difference between Ethereum and Bitcoin**
+
+| Types                   |            Ethereum             |                     Bitcoin |
+| :---------------------- | :-----------------------------: | --------------------------: |
+| Consensus Mechanism     |         Proof of Stake          |               Proof of work |
+| Accounting System       |          Account Model          |                  UTXO Model |
+| Public Key Cryptography |    secp256k1 elliptic curve     |    secp256k1 elliptic curve |
+| Stale/Orphan Blocks     |            Rewarded             |                Not Rewarded |
+| Block Time              |     Approx every 12 seconds     |     Approx every 10 minutes |
+| Network Difficulty      |      Adjusted every block       |           Every 2016 blocks |
+| Language Support        | Turing Complete smart contracts | non-Turing Complete scripts |
+
+**EIP** :
+If there are any changes or any update is there in EVM (Ethereum Virtual Machine) , EIP (Ethereum Improvement Proposal) stores the history of updates.
