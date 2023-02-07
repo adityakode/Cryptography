@@ -141,3 +141,9 @@ Properties of the Ethereum Computer :
 
 **EIP** :
 If there are any changes or any update is there in EVM (Ethereum Virtual Machine) , EIP (Ethereum Improvement Proposal) stores the history of updates.
+
+**POS**
+
+1. More Secure
+2. Less energy intensive
+3. Greater scalability
