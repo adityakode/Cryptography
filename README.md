@@ -147,3 +147,15 @@ If there are any changes or any update is there in EVM (Ethereum Virtual Machine
 1. More Secure
 2. Less energy intensive
 3. Greater scalability
+
+**JSON RPC**
+It is the bridge we to connect any dApp we use or build to an Ethereum node, and thus the greater Ethereum network.
+
+**Nodes and Clients**
+
+A "node" is any instance of Ethereum client software that is connected to other computers also running Ethereum software, forming a network. A client is an implementation of Ethereum that verifies data against the protocol rules and keeps the network secure.
+
+**Post Merge Ethereum**
+
+1. Execution Client : listens to new transactions broadcasted in the network, executes them in EVM, and holds the latest state and database of all current Ethereum data.
+2. Consensus Client : implements the proof-of-stake consensus algorithm, which enables the network to achieve agreement based on validated data from the execution client.
